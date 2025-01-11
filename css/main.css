@@ -1,0 +1,540 @@
+body{
+    font-family: "Poppins", sans-serif;
+    
+    font-style: normal;
+    }
+    .home{
+        background-image:linear-gradient(rgba(0, 0, 0, 0.553),rgba(0, 0, 0, 0.553)) ,url(../images/imgs/bg.jpg);
+        background-position: center center;
+        background-size: cover;
+        height: 100vh;
+    }
+    .home .my-nav{
+        font-size: 14px;
+        font-weight: 400;
+        background-color: rgba(0, 0, 0, 0.766);
+        color: white;
+    }
+    .home .container .logo{
+        font-family: "Montserrat", sans-serif;
+        font-size: 18px;
+        font-weight: 800;
+        font-style: normal;
+    }
+    .home .container h1{
+        font-family: "Montserrat", sans-serif;
+        font-size: 50px;
+        font-weight: 800;
+        font-style: normal;
+    }
+    .home .container .disc{
+        font-size: 40px;
+    }
+    
+    .my-nav{
+        background-color: transparent;
+        
+    }
+
+    .my-nav .navbar-toggler .navbar-toggler-icon{
+        background-color:rgba(255, 255, 255, 0.405)
+
+    }
+    .my-nav .navbar-toggler{
+        background-image: url(C:\Users\Elham\Desktop\myprojects\Daniels\images\imgs\menu-icon-png-3-lines-11552739317jfnbfzzmez.png);
+    }
+    
+    .my-nav ul li a{
+        color: white;
+    }
+    
+    .my-nav ul li a:hover{
+        color: white;
+        animation: move 2s ;
+    }
+    
+    
+    .my-nav .logo{
+        color: white;
+    }
+
+    
+
+
+
+
+    .my-nav .nav-item .nav-link.active::after{
+        content: '';
+        width: 70%;
+        height: 2px;
+        background-color: white;
+        position: absolute;
+        bottom: 0;
+        left: 10%;
+    }
+    .my-nav .nav-item .nav-link{
+        position: relative;
+        overflow: hidden;
+    }
+    
+    .my-nav .nav-item .nav-link::after{
+        content: '';
+        width: 75%;
+        height: 2px;
+        background-color: white;
+        position: absolute;
+        bottom: 0;
+        left: -100%;
+        transition: all 1s;
+    }
+    
+    .my-nav .nav-item .nav-link:hover::after{
+        left: 10%;
+    }
+    
+    .typewriter h3 {
+        color: #fff;
+        font-family: monospace;
+        overflow: hidden; /* Ensures the content is not revealed until the animation */
+        border-right: .15em solid orange; /* The typwriter cursor */
+        white-space: nowrap; /* Keeps the content on a single line */
+        margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+        letter-spacing: .15em; /* Adjust as needed */
+        animation: 
+          typing 3.5s steps(30, end),
+          blink-caret .5s step-end infinite;
+      }
+      
+      /* The typing effect */
+      @keyframes typing {
+        from { width: 0 }
+        to { width: 100% }
+      }
+      
+      /* The typewriter cursor effect */
+      @keyframes blink-caret {
+        from, to { border-color: transparent }
+        50% { border-color: white }
+      }
+
+.home .icons i{
+    background-color: rgba(0, 0, 0, 0.83);
+}
+
+.about h2{
+    font-family: "Montserrat", sans-serif;
+        font-size: 30px;
+        font-weight: 800;
+        font-style: normal;
+}
+.about p span{
+    
+        font-size: 15px;
+        font-weight: 700;
+        font-style: normal;
+}
+
+.about .container .row .col-lg-4 .point {
+    background-image: radial-gradient(rgba(46, 46, 46, 0.87) 5px, transparent 0);
+    background-size: 40px 40px;
+    background-color: red;
+    position: relative;
+}
+
+.about .container .row .col-lg-4 .image{
+    text-align: center;
+        background-image: radial-gradient(rgba(215, 209, 209, 0.87) 5px, transparent 0);
+        background-size: 40px 40px;
+        width: 100%;
+        margin: auto;
+        height: auto;
+}
+.about .container .row .image {
+        background-color: rgb(255, 255, 255);
+        /* position: absolute;
+        top: 0px;
+        left: 20px;
+        bottom: 20px;
+        right: 0; */
+}
+
+.about .part-2 span{
+    color: white;
+    font-family: "Montserrat", sans-serif;
+        font-size: 13px;
+        font-weight: 500;
+        font-style: normal;
+    
+}
+.about .rate{
+    background-color: red;
+    height: 25px ;
+    width: 100%;
+    background-color:#F7F7F7;
+    border-radius: 3px;
+    margin-top:30px ;
+
+}
+
+.about .rate .child{
+    
+    height: 25px ;
+    border-radius: 3px;
+
+}
+
+.about .rate .design{
+    width: 95%;
+}
+
+.about .rate .branding{
+    width: 80%;
+}
+
+.about .rate .branding{
+    width: 80%;
+}
+.about .rate .develop{
+    width: 90%;
+}
+
+
+.about .container .row .col-lg-8 .buttons .download:hover{
+    background-color: white;
+    color: black;
+}
+
+
+.services{
+    background-color: #F7F7F7;
+}
+
+.services .container .row .sec .icons i{
+    background-color: #e4e1e1;
+}
+.services .container .row .sec:hover i{
+    color: white;
+    background-color: black;
+}
+
+.services .container .title h2{
+    font-family: "Montserrat", sans-serif;
+        font-size: 40px;
+        font-weight: 900;
+        font-style: normal;
+        /* text-align: center; */
+        background-image: radial-gradient(rgba(215, 209, 209, 0.87) 2px, transparent 0);
+        background-size: 30px 30px;
+        width: 20%;
+        /* margin: auto; */
+    
+}
+
+.services .container .row .sec h3{
+    font-family: "Montserrat", sans-serif;
+        font-size: 18px;
+        font-weight: 800;
+        font-style: normal;
+        padding-top: 20px;
+}
+
+.services .container .row .sec p{
+    font-size: 14px;
+    font-weight: 400;
+    
+}
+
+
+
+.portofolio .title h3{
+    background-image: radial-gradient(rgba(215, 209, 209, 0.87) 2px, transparent 0);
+    background-size: 30px 30px;
+    width: 15%;
+    /* margin: auto; */
+    font-family: "Montserrat", sans-serif;
+    font-size: 40px;
+    font-weight: 900;
+    font-style: normal;
+
+}
+
+
+.portofolio .nav .nav-item {
+   
+    position: relative;
+    overflow: hidden;
+
+}
+
+.portofolio .nav .nav-item .nav-link{
+    background-color: transparent;
+    color: black;
+    font-size: 16px;
+    font-weight: 700;
+    
+}
+.portofolio .nav .nav-item .nav-link::after{
+    content: '';
+        width: 75%;
+        height: 2px;
+        background-color: rgb(11, 11, 11);
+        position: absolute;
+        bottom: 0;
+        left: -100%;
+        transition: all 1s;
+}
+
+.portofolio .nav .nav-item .nav-link.active::after{
+    left: 10%;
+}
+
+
+.portofolio .navs-images{
+    position: relative;
+}
+
+.portofolio .navs-images:hover .images-layer{
+    opacity: 1;
+    transition: all 0.8s;
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    bottom: 5px;
+
+}
+
+.portofolio .navs-images .images-layer{
+    background-color: rgba(255, 255, 255, 0.741);
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 10%;
+    left: 5px;
+    right: 5px;
+    bottom: 5px;
+    opacity: 0;
+   
+}
+.portofolio .navs-images .images-layer .icons i{
+    background-color: black;
+    color: white;
+}
+
+.portofolio .navs-images .images-layer .icons i:hover{
+    background-color: white;
+    color: black;
+}
+
+.portofolio .navs-images .images-layer .layer-text p{
+    transform: translateY(-100%);
+    transition: all 1s;
+    font-family: "Montserrat", sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    font-style: normal;
+}
+
+
+.portofolio .navs-images:hover .layer-text p{
+    transform:translateY(0) ;
+}
+
+.testimonial{
+    background-color: #F7F7F7;
+}
+
+.testimonial .title h2{
+    font-family: "Montserrat", sans-serif;
+        font-size: 40px;
+        font-weight: 900;
+        font-style: normal;
+        text-align: center;
+        background-image: radial-gradient(rgba(215, 209, 209, 0.87) 2px, transparent 0);
+        background-size: 30px 30px;
+        width: 20%;
+        /* margin: auto; */
+    
+}
+
+.testimonial .img-item{
+    width: 100px;
+    border-radius: 50%;
+}
+
+.testimonial .carousel-indicators [data-bs-target]{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #869791;
+}
+
+.testimonial .item-context p{
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.testimonial .item-context h3{
+    font-family: "Montserrat", sans-serif;
+        font-size: 16px;
+        font-weight: 600;
+        font-style: normal;
+}
+.testimonial .item-context .disc {
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.counter .container .row .col-lg-3 .nb{
+    font-family: "Montserrat", sans-serif;
+        font-size: 30px;
+        font-weight: 900;
+        font-style: normal;
+}
+
+.counter .container .row .col-lg-3 p{
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.team{
+    background-color: #F7F7F7;
+}
+
+.team .title h2{
+    font-family: "Montserrat", sans-serif;
+        font-size: 40px;
+        font-weight: 900;
+        font-style: normal;
+        text-align: center;
+        background-image: radial-gradient(rgba(215, 209, 209, 0.87) 2px, transparent 0);
+        background-size: 40px 40px;
+        width: 30%;
+        margin: auto;
+    
+}
+
+.team .container .sec .card img {
+    
+    transition: 2s;
+}
+.team .container .sec .card{
+    overflow: hidden;
+}
+
+.team .container .sec .card .card-body{
+    z-index: 5;
+    background-color: #5B5B5B;
+}
+
+.team .container .sec .card:hover img{
+    transform: scale(1.2);
+}
+
+.team .container .sec .card .cards-images{
+    position: relative;
+    
+}
+
+
+
+.team .container .sec .card:hover .image-layer {
+    opacity: 1;
+    transition: all 1s;
+    transform: rotate(360deg); 
+    
+    
+}
+
+.team .container .sec .card .image-layer{
+    background-color: rgba(255, 255, 255, 0.907);
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    bottom: 5px;
+    opacity: 0;
+    
+}
+
+
+.team .container .sec .card .image-layer i{
+    background-color: black;
+    color: white;
+}
+
+.team .container .sec .card .image-layer i:hover{
+    background-color: white;
+    color: black;
+}
+
+
+
+.team .container .sec .card .card-title{
+    font-family: "Montserrat", sans-serif;
+        font-size: 25px;
+        font-weight: 500;
+        font-style: normal;
+}
+.team .container .sec .card .card-text{
+    font-family: "Montserrat", sans-serif;
+        font-size: 20px;
+        font-weight: 700;
+        font-style: normal;
+}
+
+.contact .title h2{
+    font-family: "Montserrat", sans-serif;
+        font-size: 40px;
+        font-weight: 900;
+        font-style: normal;
+        text-align: center;
+        background-image: radial-gradient(rgba(215, 209, 209, 0.87) 2px, transparent 0);
+        background-size: 40px 40px;
+        width: 30%;
+        margin: auto;
+    
+}
+
+.contact .container .row .sec h3{
+    font-family: "Montserrat", sans-serif;
+        font-size: 16px;
+        font-weight: 700;
+        font-style: normal;
+}
+
+.contact .container .row .sec p{
+    font-size: 15px;
+        font-weight: 400;
+}
+.contact .container .icons i{
+    background-color: #e4e1e1;
+}
+
+.contact .container button:hover{
+    background-color: white;
+    color: black;
+}
+.contact .container .row .form-control{
+    box-shadow: none;
+    border-color: black;
+}
+
+.contact .container .row .sec:hover i{
+    color: white;
+    background-color: black;
+}
+
+.footer{
+    background-color: #1C1C1C;
+    color: #748182;
+}
+
+
+
+
